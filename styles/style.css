@@ -219,21 +219,24 @@ padding: 12px 32px;
 
 .card-link {
   display: block;
+  position: absolute;
   width: 100%;
   height: 100%;
 }
 
 .card_type_film {
-  background-image: url(../images/card-lot-04.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);   
+  background-size: contain;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-
+  background-size: cover;
+  
 }
 
 .card__title {
@@ -243,7 +246,6 @@ padding: 12px 32px;
   font-weight: 700;
   line-height: 26px;
   letter-spacing: 0em;
-  text-align: left;
   color: #fff;
   text-transform: uppercase;
   padding: 50px 40px 0;
@@ -256,9 +258,8 @@ padding: 12px 32px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
-  text-align: left;
   color: #fff;
-  padding: 50px 40px;
+  margin: 0 40px 50px;
 }
 
 .lots__look-more-link {

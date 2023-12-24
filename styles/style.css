@@ -271,7 +271,7 @@
   display: grid;
   grid-template-columns: minmax(auto, 2fr);
   grid-template-rows: minmax(auto, 1fr);
-  gap: 25px 25px;
+  column-gap: 25px;
   margin: 179px 24px;
   justify-content: center;
 }
@@ -320,8 +320,8 @@
   line-height: 23px;
 }
 
-.about__text:first-of-type {
-  margin-top: -24px;
+.about__text + .about__text {
+  margin-top: 25px;
 }
 
 /* footer styles */

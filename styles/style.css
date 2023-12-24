@@ -216,6 +216,7 @@
 
 .card-link {
   height: 100%; 
+  text-decoration: none;
 }
 
 .card_type_film {
